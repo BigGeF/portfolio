@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello From Views!!</h1>
+    @{
+        var StringList = new List<string>{
+            "one",
+            "two",
+            "three",
+            "four"
+        };
+        foreach(var word in StringList)
+        {
+            
+            @if(word[0]=='t'){
+                <p style="color:red";>
+                    @word
+                </p>
+            }
+            else{
+                <p>
+                    <a href="/Hi">@word</a>
+                    </p>
+            }
+        }
+    }
+</body>
+</html>
