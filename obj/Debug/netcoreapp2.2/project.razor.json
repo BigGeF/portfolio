@@ -1875,6 +1875,21 @@
       "FilePath": "c:\\Program Files\\codingdojo\\C#\\newMe\\AspMVC\\TestProject\\Views\\Hello\\Index.cshtml",
       "TargetPath": "Views\\Hello\\Index.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Program Files\\codingdojo\\C#\\newMe\\AspMVC\\TestProject\\Views\\Hello\\time.cshtml",
+      "TargetPath": "Views\\Hello\\time.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Program Files\\codingdojo\\C#\\newMe\\AspMVC\\TestProject\\Views\\Hello\\Contact.cshtml",
+      "TargetPath": "Views\\Hello\\Contact.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Program Files\\codingdojo\\C#\\newMe\\AspMVC\\TestProject\\Views\\Hello\\Project.cshtml",
+      "TargetPath": "Views\\Hello\\Project.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"

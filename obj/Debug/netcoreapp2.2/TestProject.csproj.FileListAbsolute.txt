@@ -21,3 +21,6 @@ C:\Program Files\codingdojo\C#\newMe\AspMVC\TestProject\obj\Debug\netcoreapp2.2\
 C:\Program Files\codingdojo\C#\newMe\AspMVC\TestProject\obj\Debug\netcoreapp2.2\TestProject.RazorTargetAssemblyInfo.cs
 C:\Program Files\codingdojo\C#\newMe\AspMVC\TestProject\obj\Debug\netcoreapp2.2\TestProject.Views.pdb
 C:\Program Files\codingdojo\C#\newMe\AspMVC\TestProject\obj\Debug\netcoreapp2.2\TestProject.csproj.CopyComplete
+C:\Program Files\codingdojo\C#\newMe\AspMVC\TestProject\obj\Debug\netcoreapp2.2\Razor\Views\Hello\Project.g.cshtml.cs
+C:\Program Files\codingdojo\C#\newMe\AspMVC\TestProject\obj\Debug\netcoreapp2.2\Razor\Views\Hello\Contact.g.cshtml.cs
+C:\Program Files\codingdojo\C#\newMe\AspMVC\TestProject\obj\Debug\netcoreapp2.2\Razor\Views\Hello\time.g.cshtml.cs

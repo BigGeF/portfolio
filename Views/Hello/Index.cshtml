@@ -4,30 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <style>
+        div{
+            margin: 10px 0px 0px
+        }
+        h1{
+            text-align: center;
+        }
+        img{
+            width:200px;
+        }
+    </style>
+    
 </head>
 <body>
-    <h1>Hello From Views!!</h1>
-    @{
-        var StringList = new List<string>{
-            "one",
-            "two",
-            "three",
-            "four"
-        };
-        foreach(var word in StringList)
-        {
-            
-            @if(word[0]=='t'){
-                <p style="color:red";>
-                    @word
-                </p>
-            }
-            else{
-                <p>
-                    <a href="/Hi">@word</a>
-                    </p>
-            }
-        }
-    }
+
+
+<div class="container">
+    
+<div class="col-md-12 column">
+			<div class="row clearfix">
+				<div class="col-md-4 column">
+				</div>
+				<div class="col-md-4 column">
+                    <a href="home">Home</a> |
+                    <a href="allProjects">Projects</a> |
+                    <a href="toContact">Contact</a>
+				</div>
+				<div class="col-md-4 column">
+				</div>
+			</div>
+</div>
+
+
+<div class="container" >
+<div class="col-md-12 column text-center">
+			<div class="row clearfix">
+				<div class="col-md-6 column">
+                    <div id="haoPic">
+                        <img src="https://media-exp1.licdn.com/dms/image/C5603AQGKQTRgIV1yiA/profile-displayphoto-shrink_400_400/0?e=1609977600&v=beta&t=cJ5qHCGGDjPLep1d1lij7WCycybSkakjBByULjmXfG4" class="rounded-circle" alt=""  srcset="">
+                    </div>
+                    <p></p>
+                    <p>Name</p>
+				</div>
+				
+				<div class="col-md-6 column">
+                    <div class="col-md-4 column">自我介绍</div>
+				</div>
+			</div>
+</div>
+
+
+</div>
+    
+<h1>The Current Time and Date:</h1>
+    <h4> @ViewBag.clock </h4>
+   
 </body>
 </html>
